@@ -1,3 +1,3 @@
-test = ['fish', 'and', 'chips']
+['fish', 'and', 'chips'][10]
 
 print(test[10])

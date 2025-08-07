@@ -1,8 +1,10 @@
-iceCreamDensity = 10   #icecreamCounter
+# ice cream Counter
+
+ice_Cream_Density = 10   
 
 
-while iceCreamDensity > 0:
+while ice_Cream_Density > 0:
     print('Drip...')
-    iceCreamDensity -= 1
+    ice_Cream_Density -= 1
 
 print('The ice cream melted.')

@@ -1,10 +1,14 @@
 from datetime import date
 
-today = date.today()
+d = date(2016, 1, 1)
 
-today_year = today.year
+today = d.today()
 
-iso_year = today.isocalendar()[0]
+today_year = d.year
+
+iso_year = d.isocalendar()[0]
+
 
 print(iso_year)
+print(today_year)
 

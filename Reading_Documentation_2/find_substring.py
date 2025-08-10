@@ -4,6 +4,11 @@ example_string = "Well Well Well, what do we have here?"
 
 print(example_string.count('Well'))
 
+#using the in or not in
+
+if "Well" in example_string:
+    print("It exists")
+
 # using the str.find method to check whether a string contains a specific substring
 # if greater than 0, it exists
 

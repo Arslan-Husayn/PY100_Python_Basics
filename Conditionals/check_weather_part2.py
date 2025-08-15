@@ -7,3 +7,5 @@ match weather:
         print("Grab your umbrella")
     case 'horse':
         print("holy shit wtf")
+    case _:
+        print("Lets stay inside")

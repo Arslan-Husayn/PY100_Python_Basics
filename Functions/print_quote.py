@@ -1,4 +1,5 @@
 def bruce_eckel_quote():
-    return 'Python is executable pseudocode.'
+    print('Python is executable pseudocode.')
+    return
 
 print(bruce_eckel_quote())
